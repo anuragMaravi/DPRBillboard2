@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.merakiphi.dprbillboard.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/primary">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DPR Billboard"
+        android:gravity="center"
+        android:textColor="@color/icons"
+        android:textSize="20sp"
+        android:layout_marginTop="80dp"
+        android:textAllCaps="true"
+
+        />
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hoarding"
+        android:tint="@color/primary_text"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add and view billboards. Update the billboards from selecting the billboards from the View"
+        android:gravity="center"
+        android:textColor="@color/icons"
+        android:textSize="12sp"
+        android:layout_margin="24dp"
+        android:layout_below="@+id/i1"
+        />
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp">
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Add"
+            android:textColor="@color/icons"
+            android:background="@color/primary_text"
+            android:layout_weight="1"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:id="@+id/buttonView"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="View/update"
+            android:textColor="@color/icons"
+            android:background="@color/primary_text"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

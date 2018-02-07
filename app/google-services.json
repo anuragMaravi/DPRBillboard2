@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "953271097448",
+    "firebase_url": "https://dpr-billboard.firebaseio.com",
+    "project_id": "dpr-billboard",
+    "storage_bucket": "dpr-billboard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953271097448:android:f24d4f019112fb4c",
+        "android_client_info": {
+          "package_name": "com.merakiphi.dprbillboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953271097448-mdabd3lf4lkpdmstar51uklna2p9trs8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJHhxJX32ZpgizHJVMNAQZ_sRYae-_1JI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
